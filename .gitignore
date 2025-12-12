@@ -1,18 +1,46 @@
-# ---- Required ----
-.env
-venv/
+# .gitignore
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
 
-# ---- Python cache ----
-*.pyc
-*.pyo
-*.pyd
-*.pdb
+# Environment
+.env
+.env.local
+.env.*.local
 
-# ---- IDE files ----
+# IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
-# ---- OS junk ----
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+*.log
+logs/
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Database
+*.db
+*.sqlite3
+
+# Docker
+docker-compose.override.yml
