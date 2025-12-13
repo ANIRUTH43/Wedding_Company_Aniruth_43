@@ -82,8 +82,8 @@ Create a `.env` file in the project root:
 
 ```bash
 # MongoDB Connection
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/?retryWrites=true&w=majority
-MONGODB_DB_NAME=wedding_company
+MONGODB_URI=give your own uri
+MONGODB_DB_NAME=give your own name for it 
 
 # Application Settings
 ENVIRONMENT=development  # or production
