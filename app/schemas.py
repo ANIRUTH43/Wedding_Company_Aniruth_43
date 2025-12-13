@@ -213,7 +213,7 @@ class OrgCreate(BaseModel):
                 "organization_name": "Acme Corporation",
                 "email": "admin@acme.com",
                 "password": "SecurePass123!",
-                "db_uri": "mongodb+srv://user:pass@cluster.mongodb.net/",
+                "db_uri": "give your mongodb uri",
                 "db_name": "acme_production"
             }
         }
